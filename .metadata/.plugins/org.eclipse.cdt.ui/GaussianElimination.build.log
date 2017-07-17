@@ -1,0 +1,15 @@
+18:39:54 **** Incremental Build of configuration Debug for project GaussianElimination ****
+make all 
+Building file: ../GaussianElimination.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"GaussianElimination.d" -MT"GaussianElimination.o" -o "GaussianElimination.o" "../GaussianElimination.cpp"
+Finished building: ../GaussianElimination.cpp
+ 
+Building target: GaussianElimination
+Invoking: GCC C++ Linker
+g++  -o "GaussianElimination"  ./GaussianElimination.o   
+Finished building target: GaussianElimination
+ 
+
+18:39:54 Build Finished (took 134ms)
+

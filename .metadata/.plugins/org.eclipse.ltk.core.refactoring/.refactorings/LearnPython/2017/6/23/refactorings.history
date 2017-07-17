@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;LearnPython/basic&apos; to &apos;basical&apos;" description="Rename resource &apos;basic&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="basic" name="basical" stamp="1496587854577" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;LearnPython/advanced/object-orient/special-function.py&apos; to &apos;special_function.py&apos;" description="Rename resource &apos;special-function.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="advanced/object-orient/special-function.py" name="special_function.py" stamp="1496828504993" updateReferences="true"/>
+</session>

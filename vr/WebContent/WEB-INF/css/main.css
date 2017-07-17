@@ -1,0 +1,121 @@
+
+/*//code here/*/
+body {
+    font-size: 18px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: #333333;
+    background-color: #fff;
+}
+nav {
+  position: absolute;
+  top:3em;
+  width:100%;
+  z-index: 100;
+}
+.container {
+  width:1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+nav a {
+  float: left;
+  text-decoration: none;
+}
+
+.main-menu-container{
+    float:right;
+}
+.main-menu{
+    float: right;
+    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu > li {
+    position: relative;
+    float: left;
+}
+.main-menu > li a {
+    display: block;
+    padding: 17px 0;
+    margin: 0 1em;
+    color: white;
+    transition: all 0.6s;
+}
+.main-menu > li a:hover {
+  text-decoration: none;
+  color:#1abb9c;
+}
+
+.btn-standard{
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    display: inline-block;
+    background-color: #1abb9c;
+    padding: 14px 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    min-width: 160px;
+    cursor: pointer;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 18px;
+    !important border-color: #1abb9c;
+}
+.main-menu >li .btn-standard:hover{
+    background-color: #337ab7;
+}
+
+
+.landing {
+    background-image: url(../img/banner.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 15vh 0;
+    display: table;
+}
+
+.full-screen {
+    width: 100%;
+    min-height: 1000px;
+}
+.full-screen {
+    width: 100%;
+    min-height: 1000px;
+}
+.container-fluid {
+    width: 100%;
+    position: relative;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container h1{
+    margin-top:200px;
+    margin-bottom: 100px;
+    font-size: 60px;
+}
+
+.news-header{
+    background-image: url(../img/banner.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    display: table; 
+}
+.page-top{
+    height:50px;
+}
+

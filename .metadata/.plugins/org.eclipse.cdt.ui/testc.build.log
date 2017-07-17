@@ -1,0 +1,15 @@
+12:34:27 **** Incremental Build of configuration Debug for project testc ****
+make all 
+Building file: ../cfile.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"cfile.d" -MT"cfile.o" -o "cfile.o" "../cfile.cpp"
+Finished building: ../cfile.cpp
+ 
+Building target: testc
+Invoking: GCC C++ Linker
+g++  -o "testc"  ./cfile.o   
+Finished building target: testc
+ 
+
+12:34:27 Build Finished (took 226ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GaussianElimination/ForwardElimination.cpp&apos; to &apos;GaussianElimination.cpp&apos;" description="Rename resource &apos;ForwardElimination.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ForwardElimination.cpp" name="GaussianElimination.cpp" stamp="1497171955684" updateReferences="true"/>
+</session>
