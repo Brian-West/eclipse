@@ -56,7 +56,7 @@ public class UserServiceImpl implements UserService {
 				return Code.SYSTEM_ERROR;
 			}else{
 				try{
-				Mail.sendMail("reao123@163.com", "1a2s3d4f", "smtp.163.com", u.getEmail(),u.getId(),context);
+					Mail.sendMail("reao123@163.com", "1a2s3d4f", "smtp.163.com", u.getEmail(),u.getId(),context);
 				}catch (Exception e){
 					System.out.print("fuck");
 					return Code.SYSTEM_ERROR;
