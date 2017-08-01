@@ -18,6 +18,13 @@
 		</list>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="/home/brian/workspace/.git">
+			<item value="false"/>
+			<item value="brian &lt;529266221@qq.com&gt;"/>
+			<item value="fifth"/>
+			<item value="brian &lt;529266221@qq.com&gt;"/>
+			<item value="9bbe98bb2d6e49c3dc9448c9210e37feed569d95"/>
+		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
