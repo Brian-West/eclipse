@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>news</title>
+    <link href="../css/news_style.css" rel="stylesheet" type="text/css" media="all" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="../js/jquery-v1.10.2.min.js" type="text/javascript"></script>
+    <script src="../js/news_list.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="header-top">
+            <!-- container -->
+            <div class="container">
+                <div class="header-top-left">
+                    <ul>
+                        <li><a href="#">评测自媒体</a></li>
+                        <li><a href="#">VR百科</a></li>
+                        <li><a href="#">VR论坛</a></li>
+                    </ul>
+                </div>
+                <div class="header-top-right">
+                    <form>
+                        <input type="text" placeholder=" " required="">
+                        <input type="submit" value=" ">
+                        <div class="clearfix"> </div>
+                    </form>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <!-- //container -->
+        </div>
+        <div class="header-middle">
+            <!-- container -->
+            <div class="container">
+                <div class="header-middle-logo">
+                    <a href="home.html">虚拟现实质量评估网站</a>
+                </div>
+                <div class="header-middle-right">
+                    <div class="login">
+                        <ul>
+                            <li class="gray"><a href="login.html"><strong> 登陆</strong></a></li>
+                            <li class="gray"><a href="register.html"><strong> 注册</strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top-nav">
+            <!-- container -->
+            <div class="container">
+                <span class="menu">菜单</span>
+                <ul class="nav1">
+                    <li><a href="home.html">首页</a><li>
+                    <li><a href="news.html">新闻资讯</a><li>
+                    <li><a href="shop.html">产品中心</a><li>
+                    <!--<li><a href="articles.html">评测中心</a><li>-->
+                    <li><a href="compare.html">产品对比</a><li>
+                    <!--<li><a href="typo.html">产品排行榜</a><li>-->
+                    <!--<li><a href="contact.html">消费者口碑</a></li>-->
+                    <div class="clearfix"> </div>
+                </ul>
+                <script>
+                    $( "span.menu" ).click(function() {
+                        $( "ul.nav1" ).slideToggle( 300, function() {
+                            // Animation complete.
+                        });
+                    });
+
+                </script>
+
+            </div>
+            <!-- //container -->
+        </div>
+    </div>
+</header>
+
+<div class="wrap">
+    <div class="one sidebar">
+        <div class="widget">
+            <ul>
+                <li><a>新闻中心</a></li>
+                <li class="active"><a href="#" class="icon">最新</a></li>
+                <li><a href="industry_news.html" class="icon">产业</a></li>
+                <li><a href="songs.html" class="icon">产商</a></li>
+                <li><a href="tones.html" class="icon">技术</a></li>
+                <li><a href="video.html" class="icon">游戏</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="title1">
+        <p>您的位置：<a href="home.html">首页</a> > <a href="#"> 新闻中心</a></p>
+    </div>
+    <div class="content">
+        <h2>最新资讯</h2>
+        <div id="grids">
+
+            <!--<div class="grid">-->
+                <!--<div class="preview_top">-->
+                    <!--<a href="single.html"><img src="./img/02.jpg" alt=""></a>-->
+                    <!--<div class="data">-->
+                        <!--<h3><a href="single.html">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a></h3>-->
+                        <!--<p>新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="grid" id="new1">
+                <div class="preview">
+                    <a><img  id="pic1" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a  href="javascript:void(0)" id="title1" onclick= "jump(this)" >新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract1">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new2">
+                <div class="preview" >
+                    <a><img id="pic2" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title2" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract2">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new3">
+                <div class="preview">
+                    <a><img id="pic3" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a  href="javascript:void(0)" id="title3" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract3">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new4">
+                <div class="preview">
+                    <a><img id="pic4" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a  href="javascript:void(0)" id="title4" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract4">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new5">
+                <div class="preview">
+                    <a><img id="pic5" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title5" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract5">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new6">
+                <div class="preview">
+                    <a><img id="pic6" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title6" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract6">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new7">
+                <div class="preview">
+                    <a><img id="pic7" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title7" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract7">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new8">
+                <div class="preview">
+                    <a><img id="pic8" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title8" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract8">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new9">
+                <div class="preview">
+                    <a><img id="pic9" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title9" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract9">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid" id="new10">
+                <div class="preview">
+                    <a href="single_news.html"><img id="pic10" src="../img/02.jpg" alt=""></a>
+                    <div class="data">
+                        <a href="javascript:void(0)" id="title10" onclick= "jump(this)">新闻标题新闻标题新闻标题新闻标题新闻标题新闻标题</a>
+                        <p id="abstract10">新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍新闻介绍</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearFloat"></div>
+        </div>
+        <div class="page">
+            <ul>
+                <li><a href="#">&laquo;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--<div class="sidebar two">-->
+        <!--<div class="widget_img">-->
+            <!--<a href="#"><img src="./img/05.jpg" ></a>-->
+        <!--</div>-->
+        <!--<div class="clearFloat"></div>-->
+
+        <!--<div class="widget widget_archive">-->
+            <!--<div class="widget_title">热门资讯</div>-->
+            <!--<ul>-->
+                <!--<li><a href="#"><i>1.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>2.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>3.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>4.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>5.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>6.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>7.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>8.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>9.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+                <!--<li><a href="#"><i>10.</i>新闻标题新闻标题新闻标题新闻标题</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="clearFloat"></div>
+</div>
+<div class="clearFloat"></div>
+<footer>
+    <div class="wrap1">
+        <div class="about">
+            <div class="title">关于我们</div>
+            <p>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍
+                介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
+        </div>
+        <ul class="link1">
+            <li class="title">本网站指引</li><br><br><br>
+            <li><a href="home.html">首页</a></li>
+            <li><a href="#">新闻资讯</a></li>
+            <li><a href="#">产品中心</a></li>
+            <!--<li><a href="feedback.html">评测中心</a></li>-->
+            <li><a href="#">产品对比</a></li>
+            <!--<li><a href="#">产品排行榜</a></li>-->
+        </ul>
+        <ul class="link2">
+            <!--<li><a href="#">消费者口碑</a></li>-->
+            <li><a href="#">评测自媒体</a></li>
+            <li><a href="#">VR百科</a></li>
+            <li><a href="#">VR论坛</a></li>
+        </ul>
+        <div class="clearFloat"></div>
+        <div class="copy"><p>&copy; 2017 All Rights Reserved</p></div>
+    </div>
+</footer>
+</body>
+</html>

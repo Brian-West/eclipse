@@ -1,0 +1,339 @@
+body {
+    font-size: 18px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    color: #333333;
+    background-color: #fff;
+}
+nav {
+    position: absolute;
+    top:3em;
+    width:100%;
+    z-index: 100;
+}
+.container {
+    width:1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+nav a {
+    float: left;
+    text-decoration: none;
+}
+
+.main-menu-container{
+    float:right;
+}
+.main-menu{
+    float: right;
+    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu > li {
+    position: relative;
+    float: left;
+}
+.main-menu > li a {
+    display: block;
+    padding: 17px 0;
+    margin: 0 1em;
+    color: white;
+    transition: all 0.6s;
+}
+.main-menu > li a:hover {
+    text-decoration: none;
+    color:#1abb9c;
+}
+
+.btn-standard{
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    display: inline-block;
+    background-color: #1abb9c;
+    padding: 14px 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    min-width: 160px;
+    cursor: pointer;
+    margin: 0 15px;
+    text-align: center;
+    line-height: 18px;
+!important border-color: #1abb9c;
+}
+.main-menu >li .btn-standard:hover{
+    background-color: #337ab7;
+}
+
+
+.container h1{
+    margin-top:60px;
+    font-size: 50px;
+}
+
+.news-header{
+    background-image: url(../img/banner.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    display: table;
+}
+.page-top{
+    height:50px;
+    width:100%;
+}
+.Dbox{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.Dbox .box{
+    width: 1080px;
+    overflow: hidden;
+    background: #fff;
+    margin-left: 68px;
+    margin-top: 50px;
+    border: 1px solid #CACACA;
+    height:280px;
+}
+.Dbox .box .left{
+    width: 350px;
+    margin-left: 15px;
+    float: left;
+}
+.Dbox .box .left img{
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+}
+.Dbox .box .left .timg{
+    float: left;
+}
+.Dbox .box .cent{
+    width: 589px;
+    margin-left: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.Dbox .box .cent #product_title{
+    width: 100%;
+    font-size: 22px;
+    float: left;
+    color: #666;
+}
+.Dbox .box .cent #bg{
+    width: 100%;
+    background: #f7f7f7;
+    float: left;
+    margin-top: 15px
+}
+.Dbox .box .cent #bg a{
+    color: #000000;
+    font-size: 14px;
+}
+.Dbox .box .cent #bg div{
+    width: 50%;
+    font-size: 14px;
+    margin:10px 10px;
+}
+.Dbox .box .cent #bg  #price{
+    color: #e4393c;
+    font-size: 16px;
+}
+.Dbox .box .cent .compare input{
+    float: left;
+    margin-left: 40px;
+    width: 120px;
+    height: 45px;
+    background-color: #00a78e;
+    /*background-color: #666666;*/
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.Dbox .box .cent .clear .min_t{
+    float: left;
+    font-size: 12px;
+    line-height: 26px;
+    margin-left: 10px;
+}
+.Dbox .box .cent .clear .min_mx{
+    float: left;
+    padding: 0 5px;
+    margin: 0 5px 5px;
+    border: 2px solid #ccc;
+    font-size: 12px;
+}
+.Dbox .box .cent .clear .min_mx a{
+    font-size:35px;
+    padding: 15px;
+    line-height: 35px;
+    color: #c9302c;
+}
+.Dbox .box .cent .clear .min_mx p{
+    text-align: center;
+}
+.Dbox .box .cent .clear .num_box{
+    width: 70px;
+    height: 36px;
+    float: left;
+}
+.left_Dbox{
+    float: left;
+    height: 850px;
+    width: 70%;
+    margin-bottom: 200px;
+}
+.Dbox1{
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.Dbox1 .configuration{
+    margin-left:70px;
+    border: 1px solid #CACACA;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+.Dbox1 .configuration .top{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background: #f7f7f7;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.Dbox1 .configuration .top span{
+    padding: 0 5px;
+    float: left;
+}
+.Dbox1 .configuration .article1{
+    width: 100%;
+}
+.Dbox1 .data1 p{
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+}
+.Dbox1 .data1 table{
+    margin-left: 30px;
+}
+.Dbox1 .data1 td{
+    width: 300px;
+    height: 30px;
+}
+.parameter{
+    color: #666666;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.Dbox2{
+    padding-bottom: 20px;
+}
+.Dbox2 .question{
+    margin-left:70px;
+    border: 1px solid #CACACA;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.Dbox2 .question .top{
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background: #f7f7f7;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.Dbox2 .question .top span{
+    padding: 0 5px;
+    float: left;
+}
+.question_content{
+    width: 95%;
+    margin: 0 auto;
+}
+.research{
+    margin-top: 20px;
+}
+.research {
+    color: #333333;
+    font-size: 16px;
+}
+#research_text{
+    margin-left: 30px;
+    width: 400px;
+    height: 150px;
+    color: #666666;
+    font-size: 16px;
+}
+#question_submit{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 45px;
+    background-color: #00a78e;
+    margin-left: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+.radio{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.right_Dbox{
+    background-color: #f2f2f2;
+}
+#right_box{
+    float: right;
+    width: 150px;
+    height: 455px;
+    border: 1px solid #CACACA;
+    /*margin-right: 100px;*/
+    position: relative;
+    top: 100px;
+    right: 120px;
+    background-color: #ffffff;
+
+}
+#right_box .box_title{
+    text-align: center;
+    /*background-color: #999999;*/
+    background-color: #00a78e;
+    color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
+}
+.right_button{
+    float: right;
+    background-color:#00a78e ;
+    border-radius: 8px;
+    position: relative;
+    top: 570px;
+    width: 90px;
+    height: 40px;
+}
+.right_button a{
+    color: #ffffff;
+    font-size: 15px;
+}
+.box{
+    width:150px ;
+    height: 100px;
+    margin-top: 5px;
+
+}
+.box_img{
+    width: 148px;
+    height: 100px;
+}

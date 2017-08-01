@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Thu Jul 27 16:34:58 CST 2017
-org.eclipse.jst.jee.server\:vr=/home/brian/apache-tomcat-7.0.79/webapps/vr
-org.eclipse.jst.jee.server\:/binary\:/home/brian/workspace/vr/WebContent/WEB-INF/lib/spring-web-4.2.2.RELEASE.jar=/home/brian/apache-tomcat-7.0.79/webapps/vr/WEB-INF/lib/spring-web-4.2.2.RELEASE.jar
